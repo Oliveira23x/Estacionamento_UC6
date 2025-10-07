@@ -1,8 +1,10 @@
 ﻿using EstacionamentoConsole.Controllers;
 using EstacionamentoConsole.Models;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.EntityFrameworkCore;
+using System;
+using System.Security.Authentication;
 
 
 var host = Host.CreateDefaultBuilder(args)
@@ -24,11 +26,10 @@ while (!sair)
 {
     Console.Clear();
     Console.WriteLine("===== Sistema de Estacionamento =====");
-    Console.WriteLine("1. Listar Clientes");
-    Console.WriteLine("2. Adicionar Cliente");
+    Console.WriteLine("1. Gerenciar Clientes");
+    Console.WriteLine("2. Genrenciar Vagas");
     Console.WriteLine("3. (A FAZER) Genrenciar Veículos");
-    Console.WriteLine("4. (A FAZER) Genrenciar Vagas");
-    Console.WriteLine("5. Ver detalhaes do Cliente.");
+    Console.WriteLine("4. (A FAZER) Genrenciar Registros");
     Console.WriteLine("0. Sair");
 
     string? opcao = Console.ReadLine(); // Lê a opção do usuário
@@ -36,20 +37,17 @@ while (!sair)
      switch (opcao)
      {  
         case "1":
-            clientesControllers.ListarClientes();
+           MenuClientes();  
             break;
         case "2":
-            clientesControllers.AdicionarCliente();
+            MenuVagas();
             break;
         case "3":
-            Console.WriteLine("Chamou o Gerenciar Veículos.");
+            Console.WriteLine("Menu Veículos.");
             break;
         case "4":
-            Console.WriteLine("Chamou o Gerenciar Vagas.");
+            Console.WriteLine("Menu Registros."); ;
             break;
-            case "5":
-            clientesControllers.VerDetatlhesCliente(); 
-            break;  
         case "0":
             sair = true;
             break;
@@ -59,5 +57,30 @@ while (!sair)
             break;
     }
 }
+static void MenuClientes()
+{
+
+
+    Console.WriteLine("===== Gerenciamento do Clientes =====");
+    Console.WriteLine("1. Listar Clientes");
+    Console.WriteLine("2. Adicionar Clientes");
+    Console.WriteLine("3. Ver detalhes do Clientes");
+    Console.WriteLine("4. Atualizar Cliente");
+    Console.WriteLine("5. Remover Clientes");
+    Console.WriteLine("0. Sair");
+    Console.ReadKey();
+
+}
+
+static void MenuVagas()
+{
+
+    Console.Clear();
+    Console.WriteLine("Chamou o menu de Vagas");
+    Console.WriteLine("Pressione qualquer tecla para retornar");
+    Console.ReadKey();
+
+}
+
 
 Console.WriteLine("Encerrando o sistema. Até logo!");
