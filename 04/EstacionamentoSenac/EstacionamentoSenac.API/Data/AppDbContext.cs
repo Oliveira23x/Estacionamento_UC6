@@ -10,5 +10,6 @@ namespace EstacionamentoSenac.API.Controllers.Data
         }
 
         public DbSet<Veiculo> Veiculos { get; set; }
+        public DbSet<Motorista> Motoristas { get; set; }
     }
 }
