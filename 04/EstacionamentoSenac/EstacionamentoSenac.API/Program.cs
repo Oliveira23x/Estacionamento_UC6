@@ -1,4 +1,3 @@
-
 using EstacionamentoSenac.API.Controllers.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -18,6 +17,16 @@ namespace EstacionamentoSenac.API
             builder.Services.AddControllers();
             builder.Services.AddOpenApi();
 
+            builder.Services.AddCors(options =>
+            {
+
+                options.AddPolicy("Permitir tudo", policy =>
+                
+                    policy.AllowAnyOrigin()
+                          .AllowAnyMethod()
+                          .AllowAnyHeader());
+            });
+
             var app = builder.Build();
 
             
@@ -27,6 +36,8 @@ namespace EstacionamentoSenac.API
             }
 
             app.UseHttpsRedirection();
+
+            app.UseCors("Permitir tudo");
 
             app.UseAuthorization();
 

@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\diego.faoliveira\\OneDrive - SENAC - SP\\TDS02_UC6\\04\\EstacionamentoSenac\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{563F838A-235B-45FC-A758-ADF8D2E09D23}|EstacionamentoSenac.API\\EstacionamentoSenac.API.csproj|c:\\users\\diego.faoliveira\\onedrive - senac - sp\\tds02_uc6\\04\\estacionamentosenac\\estacionamentosenac.api\\controllers\\veiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{563F838A-235B-45FC-A758-ADF8D2E09D23}|EstacionamentoSenac.API\\EstacionamentoSenac.API.csproj|solutionrelative:estacionamentosenac.api\\controllers\\veiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63FCF9CA-9D8D-4769-BF27-6359C45767FB}|Estacionamento.MAUI\\Estacionamento.MAUI.csproj|c:\\users\\diego.faoliveira\\onedrive - senac - sp\\tds02_uc6\\04\\estacionamentosenac\\estacionamento.maui\\components\\pages\\veiculos\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63FCF9CA-9D8D-4769-BF27-6359C45767FB}|Estacionamento.MAUI\\Estacionamento.MAUI.csproj|solutionrelative:estacionamento.maui\\components\\pages\\veiculos\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{563F838A-235B-45FC-A758-ADF8D2E09D23}|EstacionamentoSenac.API\\EstacionamentoSenac.API.csproj|c:\\users\\diego.faoliveira\\onedrive - senac - sp\\tds02_uc6\\04\\estacionamentosenac\\estacionamentosenac.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{563F838A-235B-45FC-A758-ADF8D2E09D23}|EstacionamentoSenac.API\\EstacionamentoSenac.API.csproj|solutionrelative:estacionamentosenac.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63FCF9CA-9D8D-4769-BF27-6359C45767FB}|Estacionamento.MAUI\\Estacionamento.MAUI.csproj|c:\\users\\diego.faoliveira\\onedrive - senac - sp\\tds02_uc6\\04\\estacionamentosenac\\estacionamento.maui\\components\\pages\\sobre.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63FCF9CA-9D8D-4769-BF27-6359C45767FB}|Estacionamento.MAUI\\Estacionamento.MAUI.csproj|solutionrelative:estacionamento.maui\\components\\pages\\sobre.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{563F838A-235B-45FC-A758-ADF8D2E09D23}|EstacionamentoSenac.API\\EstacionamentoSenac.API.csproj|c:\\users\\diego.faoliveira\\onedrive - senac - sp\\tds02_uc6\\04\\estacionamentosenac\\estacionamentosenac.api\\migrations\\20251023000622_primeiramigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{563F838A-235B-45FC-A758-ADF8D2E09D23}|EstacionamentoSenac.API\\EstacionamentoSenac.API.csproj|solutionrelative:estacionamentosenac.api\\migrations\\20251023000622_primeiramigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63FCF9CA-9D8D-4769-BF27-6359C45767FB}|Estacionamento.MAUI\\Estacionamento.MAUI.csproj|c:\\users\\diego.faoliveira\\onedrive - senac - sp\\tds02_uc6\\04\\estacionamentosenac\\estacionamento.maui\\models\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63FCF9CA-9D8D-4769-BF27-6359C45767FB}|Estacionamento.MAUI\\Estacionamento.MAUI.csproj|solutionrelative:estacionamento.maui\\models\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63FCF9CA-9D8D-4769-BF27-6359C45767FB}|Estacionamento.MAUI\\Estacionamento.MAUI.csproj|c:\\users\\diego.faoliveira\\onedrive - senac - sp\\tds02_uc6\\04\\estacionamentosenac\\estacionamento.maui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63FCF9CA-9D8D-4769-BF27-6359C45767FB}|Estacionamento.MAUI\\Estacionamento.MAUI.csproj|solutionrelative:estacionamento.maui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{563F838A-235B-45FC-A758-ADF8D2E09D23}|EstacionamentoSenac.API\\EstacionamentoSenac.API.csproj|c:\\users\\diego.faoliveira\\onedrive - senac - sp\\tds02_uc6\\04\\estacionamentosenac\\estacionamentosenac.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{563F838A-235B-45FC-A758-ADF8D2E09D23}|EstacionamentoSenac.API\\EstacionamentoSenac.API.csproj|solutionrelative:estacionamentosenac.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{563F838A-235B-45FC-A758-ADF8D2E09D23}|EstacionamentoSenac.API\\EstacionamentoSenac.API.csproj|c:\\users\\diego.faoliveira\\onedrive - senac - sp\\tds02_uc6\\04\\estacionamentosenac\\estacionamentosenac.api\\models\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{563F838A-235B-45FC-A758-ADF8D2E09D23}|EstacionamentoSenac.API\\EstacionamentoSenac.API.csproj|solutionrelative:estacionamentosenac.api\\models\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{563F838A-235B-45FC-A758-ADF8D2E09D23}|EstacionamentoSenac.API\\EstacionamentoSenac.API.csproj|c:\\users\\diego.faoliveira\\onedrive - senac - sp\\tds02_uc6\\04\\estacionamentosenac\\estacionamentosenac.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{563F838A-235B-45FC-A758-ADF8D2E09D23}|EstacionamentoSenac.API\\EstacionamentoSenac.API.csproj|solutionrelative:estacionamentosenac.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 307,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,76 +46,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\diego.faoliveira\\OneDrive - SENAC - SP\\TDS02_UC6\\04\\EstacionamentoSenac\\EstacionamentoSenac.API\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "EstacionamentoSenac.API\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\diego.faoliveira\\OneDrive - SENAC - SP\\TDS02_UC6\\04\\EstacionamentoSenac\\EstacionamentoSenac.API\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "EstacionamentoSenac.API\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\diego.faoliveira\\OneDrive - SENAC - SP\\TDS02_UC6\\04\\EstacionamentoSenac\\Estacionamento.MAUI\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Estacionamento.MAUI\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\diego.faoliveira\\OneDrive - SENAC - SP\\TDS02_UC6\\04\\EstacionamentoSenac\\Estacionamento.MAUI\\MauiProgram.cs",
+              "RelativeToolTip": "Estacionamento.MAUI\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T00:46:51.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VeiculosController.cs",
-              "DocumentMoniker": "C:\\Users\\diego.faoliveira\\OneDrive - SENAC - SP\\TDS02_UC6\\04\\EstacionamentoSenac\\EstacionamentoSenac.API\\Controllers\\VeiculosController.cs",
-              "RelativeDocumentMoniker": "EstacionamentoSenac.API\\Controllers\\VeiculosController.cs",
-              "ToolTip": "C:\\Users\\diego.faoliveira\\OneDrive - SENAC - SP\\TDS02_UC6\\04\\EstacionamentoSenac\\EstacionamentoSenac.API\\Controllers\\VeiculosController.cs",
-              "RelativeToolTip": "EstacionamentoSenac.API\\Controllers\\VeiculosController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAA7wDcAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T00:45:21.242Z",
+              "WhenOpened": "2025-10-29T00:57:41.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20251023000622_PrimeiraMigration.cs",
-              "DocumentMoniker": "C:\\Users\\diego.faoliveira\\OneDrive - SENAC - SP\\TDS02_UC6\\04\\EstacionamentoSenac\\EstacionamentoSenac.API\\Migrations\\20251023000622_PrimeiraMigration.cs",
-              "RelativeDocumentMoniker": "EstacionamentoSenac.API\\Migrations\\20251023000622_PrimeiraMigration.cs",
-              "ToolTip": "C:\\Users\\diego.faoliveira\\OneDrive - SENAC - SP\\TDS02_UC6\\04\\EstacionamentoSenac\\EstacionamentoSenac.API\\Migrations\\20251023000622_PrimeiraMigration.cs",
-              "RelativeToolTip": "EstacionamentoSenac.API\\Migrations\\20251023000622_PrimeiraMigration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T00:07:55.62Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Veiculo.cs",
-              "DocumentMoniker": "C:\\Users\\diego.faoliveira\\OneDrive - SENAC - SP\\TDS02_UC6\\04\\EstacionamentoSenac\\EstacionamentoSenac.API\\Models\\Veiculo.cs",
-              "RelativeDocumentMoniker": "EstacionamentoSenac.API\\Models\\Veiculo.cs",
-              "ToolTip": "C:\\Users\\diego.faoliveira\\OneDrive - SENAC - SP\\TDS02_UC6\\04\\EstacionamentoSenac\\EstacionamentoSenac.API\\Models\\Veiculo.cs",
-              "RelativeToolTip": "EstacionamentoSenac.API\\Models\\Veiculo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T23:11:04.615Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\diego.faoliveira\\OneDrive - SENAC - SP\\TDS02_UC6\\04\\EstacionamentoSenac\\EstacionamentoSenac.API\\appsettings.json",
-              "RelativeDocumentMoniker": "EstacionamentoSenac.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\diego.faoliveira\\OneDrive - SENAC - SP\\TDS02_UC6\\04\\EstacionamentoSenac\\EstacionamentoSenac.API\\appsettings.json",
-              "RelativeToolTip": "EstacionamentoSenac.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-22T23:06:38.738Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\diego.faoliveira\\OneDrive - SENAC - SP\\TDS02_UC6\\04\\EstacionamentoSenac\\EstacionamentoSenac.API\\Program.cs",
               "RelativeDocumentMoniker": "EstacionamentoSenac.API\\Program.cs",
               "ToolTip": "C:\\Users\\diego.faoliveira\\OneDrive - SENAC - SP\\TDS02_UC6\\04\\EstacionamentoSenac\\EstacionamentoSenac.API\\Program.cs",
               "RelativeToolTip": "EstacionamentoSenac.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T23:06:01.211Z"
+              "WhenOpened": "2025-10-29T00:48:21.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Veiculo.cs",
+              "DocumentMoniker": "C:\\Users\\diego.faoliveira\\OneDrive - SENAC - SP\\TDS02_UC6\\04\\EstacionamentoSenac\\Estacionamento.MAUI\\Models\\Veiculo.cs",
+              "RelativeDocumentMoniker": "Estacionamento.MAUI\\Models\\Veiculo.cs",
+              "ToolTip": "C:\\Users\\diego.faoliveira\\OneDrive - SENAC - SP\\TDS02_UC6\\04\\EstacionamentoSenac\\Estacionamento.MAUI\\Models\\Veiculo.cs",
+              "RelativeToolTip": "Estacionamento.MAUI\\Models\\Veiculo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T00:34:38.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\diego.faoliveira\\OneDrive - SENAC - SP\\TDS02_UC6\\04\\EstacionamentoSenac\\Estacionamento.MAUI\\Components\\Pages\\Veiculos\\Index.razor",
+              "RelativeDocumentMoniker": "Estacionamento.MAUI\\Components\\Pages\\Veiculos\\Index.razor",
+              "ToolTip": "C:\\Users\\diego.faoliveira\\OneDrive - SENAC - SP\\TDS02_UC6\\04\\EstacionamentoSenac\\Estacionamento.MAUI\\Components\\Pages\\Veiculos\\Index.razor",
+              "RelativeToolTip": "Estacionamento.MAUI\\Components\\Pages\\Veiculos\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-28T23:21:48.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sobre.razor",
+              "DocumentMoniker": "C:\\Users\\diego.faoliveira\\OneDrive - SENAC - SP\\TDS02_UC6\\04\\EstacionamentoSenac\\Estacionamento.MAUI\\Components\\Pages\\Sobre.razor",
+              "RelativeDocumentMoniker": "Estacionamento.MAUI\\Components\\Pages\\Sobre.razor",
+              "ToolTip": "C:\\Users\\diego.faoliveira\\OneDrive - SENAC - SP\\TDS02_UC6\\04\\EstacionamentoSenac\\Estacionamento.MAUI\\Components\\Pages\\Sobre.razor",
+              "RelativeToolTip": "Estacionamento.MAUI\\Components\\Pages\\Sobre.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-28T23:13:36.113Z",
+              "EditorCaption": ""
             }
           ]
         }
