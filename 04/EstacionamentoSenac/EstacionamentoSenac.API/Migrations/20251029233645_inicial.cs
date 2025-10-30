@@ -5,11 +5,25 @@
 namespace EstacionamentoSenac.API.Migrations
 {
     /// <inheritdoc />
-    public partial class CriacaoMotorista : Migration
+    public partial class inicial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "Veiculos",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Marca = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Modelo = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Veiculos", x => x.Id);
+                });
+
             migrationBuilder.CreateTable(
                 name: "Motoristas",
                 columns: table => new
@@ -17,7 +31,6 @@ namespace EstacionamentoSenac.API.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    VeicuiloId = table.Column<int>(type: "int", nullable: true),
                     VeiculoId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
@@ -41,6 +54,9 @@ namespace EstacionamentoSenac.API.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Motoristas");
+
+            migrationBuilder.DropTable(
+                name: "Veiculos");
         }
     }
 }

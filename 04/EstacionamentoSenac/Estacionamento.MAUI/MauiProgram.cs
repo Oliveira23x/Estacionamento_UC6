@@ -20,7 +20,7 @@ namespace Estacionamento.MAUI
     		builder.Services.AddBlazorWebViewDeveloperTools();
     		builder.Logging.AddDebug();
 #endif
-
+            builder.Services.AddSingleton<HttpClient>();    
             return builder.Build();
         }
     }

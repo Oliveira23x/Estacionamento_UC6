@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EstacionamentoSenac.API.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20251027225651_CriacaoMotorista")]
-    partial class CriacaoMotorista
+    [Migration("20251029233645_inicial")]
+    partial class inicial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -34,9 +34,6 @@ namespace EstacionamentoSenac.API.Migrations
 
                     b.Property<string>("Nome")
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("VeicuiloId")
-                        .HasColumnType("int");
 
                     b.Property<int?>("VeiculoId")
                         .HasColumnType("int");
