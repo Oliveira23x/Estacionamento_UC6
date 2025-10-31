@@ -33,9 +33,9 @@ else
                     <td>@veiculo.Marca</td>
                     <td>@veiculo.Modelo</td>
                     <td>
-                        <a href="#" class="btn btn-warning">Editar</a>
-                        <a href="#" class="btn btn-info">Detalhes</a>
-                        <a href="#" class="btn btn-danger">Excluir</a>
+                        <a href="/veiculos/edit/@veiculo.Id" class="btn btn-warning">Editar</a>
+                        <a href="/veiculos/details/@veiculo.Id" class="btn btn-info">Detalhes</a>
+                        <a href="/veiculos/delete/@veiculo.Id" class="btn btn-danger">Excluir</a>
                     </td>
                 </tr>
             }
@@ -48,6 +48,6 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        veiculos = await Http.GetFromJsonAsync<List<Veiculo>>("https://localhost:7263/api/Veiculos");
+        veiculos = await Http.GetFromJsonAsync<List<Veiculo>>("https://localhost:4000/api/Veiculos");
     }
 }

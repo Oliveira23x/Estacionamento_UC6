@@ -1,50 +1,47 @@
-﻿@page "/veiculos/details/{id:int}"
+﻿@page "/motoristas/details/{Id:int}"
 @using Estacionamento.MAUI.Models
 @inject HttpClient Http;
 
-<h3>Detalhes do Veículo</h3>
 
-@if (veiculo == null)
+<h3>Details do Motorista</h3>
+
+@if(motorista == null)
 {
     <p><em>Carregando...</em></p>
 }
 else
-
 {
     <div>
-        <h4>Veículo</h4>
+        <h4>Motorista</h4>
         <hr />
-
         <dl class="row">
             <dt class="col-sm-2">
-                Marca
+                Nome
             </dt>
             <dd>
-                @veiculo.Marca
+                @motorista.Nome
             </dd>
             <dt class="col-sm-2">
-                Modelo
+                VeiculoId
             </dt>
             <dd class="">
-                @veiculo.Modelo
+                @motorista.VeiculoId
             </dd>
         </dl>
-    </div>    
-
+    </div>     
     <div>
-        <a href="/veiculos" class="btn btn-light">Voltar</a>
+        <a href="/motoristas" class="btn btn-light">Voltar</a>
     </div>
-}
-
+})
 
 @code {
-    [Parameter]
+     [Parameter]
     public int Id { get; set; }
-    private Veiculo? veiculo;
+    private Motorista? motorista;
 
     protected override async Task OnInitializedAsync()
     {
         // Busca um veículo na API
-        veiculo = await Http.GetFromJsonAsync<Veiculo>($"https://localhost:4000/api/Veiculos/{Id}");
+        motorista = await Http.GetFromJsonAsync<Motorista>($"https://localhost:4000/api/Veiculos/{Id}");
     }
 }
